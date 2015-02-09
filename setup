@@ -1,0 +1,9 @@
+"use strict";
+
+var RED_POWER = 16;
+var YELLOW_POWER = 18;
+var GREEN_POWER = 15;
+
+var RED_SWITCH = 29;
+var YELLOW_SWITCH = 31;
+var GREEN_SWITCH = 33;
