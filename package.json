@@ -1,0 +1,32 @@
+
+{
+  "name": "StopLight",
+  "version": "0.0.1",
+  "description": "A node application to control touch lights with a Raspberry Pi.",
+  "author": "Mark Broadhead <marknbroadhead@gmail.com>",
+  "scripts": {
+    "start": "node index.js",
+  },
+  "main": "server.js",
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/MarkNBroadhead/StopLight"
+},
+  "bugs": {
+  "url": "https://github.com/MarkNBroadhead/StopLight/issues"
+},
+  "keywords": [
+  "Raspberry Pi",
+  "nodejs"
+],
+  "dependencies": {
+    "express": "~4.11.x",
+    "pi-gpio": "~0.0.6"
+  },
+  "devDependencies": {
+  },
+  "preferGlobal": true,
+  "private": true,
+  "analyze": true,
+  "license": "MIT"
+}
