@@ -18,10 +18,6 @@ function Light(gpio, powerPin, buttonPin , color) {
 	});
 };
 
-Light.prototype.onButtonPress = function() {
-
-};
-
 /*
  * Cycles the power pin for this object.
  */
